@@ -1,0 +1,29 @@
+.footer {
+    background-color: rgb(21 21 21);
+    padding-block: 1em;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    .footer-section {
+        padding-inline: 3em;
+        p, a {
+            opacity: .8;
+            margin-bottom: .5em;
+            color: #fff;
+        }
+        p.title {
+            opacity: 1;
+            font-size: 1.1em;
+            font-weight: bold;
+            margin-bottom: 1em;
+        }
+        svg {
+            font-size: 1.3em;
+            margin-left: .05em;
+            margin-right: .5em;
+        }
+    }
+}

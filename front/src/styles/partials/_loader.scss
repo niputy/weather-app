@@ -1,0 +1,26 @@
+.loader-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.spinner{
+    width: 60px;
+    height: 60px;
+    border: 4px solid var(--primary-color);
+    border-top: 4px solid var(--background-color);
+    border-radius: 50%;
+    transition-property: transform;
+    animation-name: spinCircle; 
+    animation-duration: 1.2s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spinCircle {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+  
+  
